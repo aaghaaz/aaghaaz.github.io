@@ -580,6 +580,15 @@
 		padding: 0;
 	}
 	
+	.tg-header{
+		height: 80px;
+		padding: 10px 0;
+	}
+	
+	.tg-header.affix{
+		padding: 10px 0;
+	}
+	
 	.timeline-div-1{
 		padding:10px 0 10px 0;
 	}
