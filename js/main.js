@@ -75,7 +75,7 @@ jQuery(document).on('ready', function() {
 	/* -------------------------------------
 			NEXT EVENT COUNTER
 	-------------------------------------- */
-	jQuery('#tg-upcomingeventcounter').countdown('2017/10/27', function(event) {
+	jQuery('#tg-upcomingeventcounter').countdown('2017/11/04', function(event) {
 		var $this = jQuery(this).html(event.strftime(''
 			+ '<div class="tg-eventcounter"><span>%-D</span><span> Days Left</span></div>'
 			+ '<div class="tg-eventcounter"><span>%H</span><span>Hours</span></div>'
@@ -86,7 +86,7 @@ jQuery(document).on('ready', function() {
 	/* -------------------------------------
 			NEXT EVENT COUNTER
 	-------------------------------------- */
-	jQuery('#tg-upcomingeventcountervtwo').countdown('2017/10/27', function(event) {
+	jQuery('#tg-upcomingeventcountervtwo').countdown('2017/11/04', function(event) {
 		var $this = jQuery(this).html(event.strftime(''
 			+ '<div class="tg-eventcounterholder"><div class="tg-eventcounter"><span>%-D</span><span> Days</span></div></div>'
 			+ '<div class="tg-eventcounterholder"><div class="tg-eventcounter"><span>%H</span><span>Hours</span></div></div>'
